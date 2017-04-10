@@ -67,16 +67,17 @@ Overview
     position: relative; 
 }
 #mega-scizor {
-    border: 1px solid;
-    margin: 0 50px;
+    width: 25%;
+    margin: 0 38%;
+    top: 200px;
 }
 .overview .intro-text .myself{
     color: white;
     text-align: center; 
 }
 .demo {
-    width: 300px;
-    padding: 70px;
+    width: 25%;
+    padding: 4%;
 
 }
 
@@ -107,7 +108,7 @@ About
     background: #B3B3BB;
     height: 3px;
 }
-#information{
+#information {
     display: inline-block;
 }
 /*--------------------
@@ -132,21 +133,6 @@ Back top button
     -moz-transition: 1s;
     transition: 1s;
 }
-/*#back-top a {
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    display: block;
-    text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #FFFFFF;
-    background: #A9A9B1;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-}*/
 #back-top:hover {
 	background: #fed136;
 }
