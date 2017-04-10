@@ -1,6 +1,6 @@
 
 body {
-    margin: 0px;
+    margin: 50px 0 0 0;
     font-family: "Roboto", sans-serif;
 }
 .grey-background{
@@ -29,6 +29,7 @@ hr{
     right: 0;
     left: 0;
     z-index: 1030;
+    top: 0;
 }
 .nav-items {
     margin: 0px;
@@ -57,7 +58,7 @@ hr{
 }
 
 /*--------------------
-2. About
+Overview
 --------------------*/
 
 .overview {
@@ -72,8 +73,16 @@ hr{
 .overview .intro-text .myself{
     color: white;
     text-align: center; 
+}
+.demo {
+    width: 300px;
+    padding: 70px;
 
 }
+
+/*--------------------
+About
+--------------------*/
 .section-title h2{
     text-align: center;
     padding-top:30px;
@@ -109,8 +118,6 @@ Back top button
 	z-index: 1000;
 	bottom: 40px;
 	right: 50px;
-}
-#back-top a {
     margin: 0;
     width: 60px;
     height: 60px;
@@ -124,17 +131,31 @@ Back top button
     -webkit-transition: 1s;
     -moz-transition: 1s;
     transition: 1s;
-    position: relative;
 }
-#back-top a:hover {
+/*#back-top a {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #A9A9B1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}*/
+#back-top:hover {
 	background: #fed136;
 }
 #back-top b{
-    margin: 15px 15px 0 0;
+    margin-top: 21px; 
     font-size: 12px;
-    position: absolute;
+    display: block;
 }
-#back-top a b:after{
+#back-top b:after{
      content: "Back To Top";
      text-align: center;
 }
