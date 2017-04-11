@@ -17,7 +17,7 @@ hr{
 --------------------*/
 .brand-logo{
     height: 40px;
-    margin: 5px 20px;
+    margin: 5px 4%;
 
 }
 #navigation-menu {
@@ -66,10 +66,12 @@ Overview
     background-color: #000;
     position: relative; 
 }
+.overvew .intro-text a {
+    margin: auto;
+}
 #mega-scizor {
     width: 25%;
     margin: 0 38%;
-    top: 200px;
 }
 .overview .intro-text .myself{
     color: white;
@@ -111,6 +113,69 @@ About
 #information {
     display: inline-block;
 }
+#information .container, #information p{
+    display: inline-block;
+}
+.container{
+    position: relative;
+}
+.middle{
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+}
+.container:hover .middle {
+  opacity: 1;
+}
+#information:hover img{
+      opacity: 0.3;
+}
+.portrait{
+    width: 600px;
+    margin: 35px;
+}
+.name{
+    background: #fed136;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/*--------------------
+My Feature
+--------------------*/
+.my-feature{
+    width: 40%;
+    display: inline-block;
+    padding: 2% 4% 2% 4%;
+    margin: 0;
+}
+.my-feature h4 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+
+}
+.my-feature a img{
+    width: 80%;
+    margin-left: 10%;
+}
+.my-feature:hover img{
+    opacity: 0.7;
+
+}
+.my-feature p {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+
 /*--------------------
 Back top button
 --------------------*/
